@@ -1,9 +1,8 @@
-// lib/screens/clan_list_screen.dart
 
 import 'package:flutter/material.dart';
 import '../api/api_service.dart';
 import '../models/clan_model.dart';
-import '../widgets/error_display.dart'; // Importando nosso widget de erro
+import '../widgets/error_display.dart';
 
 class ClanListScreen extends StatefulWidget {
   const ClanListScreen({super.key});

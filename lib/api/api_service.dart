@@ -1,8 +1,8 @@
-// lib/api/api_service.dart
+
 
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/clan_model.dart'; // Importando nosso modelo
+import '../models/clan_model.dart';
 
 class ApiService {
   Future<List<Clan>> fetchClans() async {

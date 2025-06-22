@@ -1,4 +1,3 @@
-// lib/models/clan_model.dart
 
 class Clan {
   final String id;
